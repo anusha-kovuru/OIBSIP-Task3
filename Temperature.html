@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="Temperature.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <section class="container">
+        <div class="box"><label for="celsius">Celsius:</label>
+        <input type="number" id="celsius" oninput="celsiusToFahrenheit()"></div>
+        <div class="box"><label for="fahrenheit">fahrenheit:</label>
+        <input type="number" id="fahrenheit" oninput="fahrenheitToCelsius()"></div>
+    </section>
+    <script src="Temperature.js"></script>
+</body>
+</html>
